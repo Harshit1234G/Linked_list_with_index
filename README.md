@@ -1,17 +1,18 @@
+# Linked List
 My implementation of linked list. I had also implemented indexing and slicing in it.
 
 Attributes: 
-    - `head` (Node or None): head of the LinkedList, default None.
+- `head` (Node or None): head of the LinkedList, default None.
     
 Functions: Look over to the respective functions for detailed information about them.
-    - `append`: It is used to append an element to the LinkedList.
-    - `display_element`: Displays the elements of the LinkedList.
-    - `remove`: Removes an existing element from the LinkedList.
-    - `to_pylist`: Converts the LinkedList to python's list object and return it.
-    - `get`: Returns the element whose index is provided, if index out of range returns None.
-    - `__getitem__`: Implements indexing and slicing to the LinkedList.
-    - `__setitem__`: Implements item assignment to LinkedList.
-    - `__len__`: Returns the length of LinkedList.
+- `append`: It is used to append an element to the LinkedList.
+- `display_element`: Displays the elements of the LinkedList.
+- `remove`: Removes an existing element from the LinkedList.
+- `to_pylist`: Converts the LinkedList to python's list object and return it.
+- `get`: Returns the element whose index is provided, if index out of range returns None.
+- `__getitem__`: Implements indexing and slicing to the LinkedList.
+- `__setitem__`: Implements item assignment to LinkedList.
+- `__len__`: Returns the length of LinkedList.
 
 Usage: Create an object of LinkedList class.
     ```
